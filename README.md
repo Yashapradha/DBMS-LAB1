@@ -5,13 +5,20 @@ ___
 
 _**LIBRARY DATABASE**_
 
-Consider the following schema for a Library Database:
-_`BOOK` (Book_id, Title, Publisher_Name, Pub_Year) 
+_Consider the following schema for a Library Database:_ 📑
+
+`BOOK` (Book_id, Title, Publisher_Name, Pub_Year) 
+
 `BOOK_AUTHORS` (Book_id, Author_Name) 
+
 `PUBLISHER` (Name, Address, Phone) 
+
 `BOOK_COPIES` (Book_id, Branch_id, Noof_Copies)
+
 `BOOK_LENDING` (Book_id, Branch_id, Card_No, Date_Out, Due_Date)
-`LIBRARY_BRANCH` (Branch_id, Branch_Name, Address)_
+
+`LIBRARY_BRANCH` (Branch_id, Branch_Name, Address)
+
 Write SQL queries to
 1. Retrieve details of all books in the library – id, title, name of publisher, authors, 
 number of copies in each branch, etc.
