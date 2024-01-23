@@ -1,9 +1,10 @@
 # SQL PROGRAMMING
 ___
----
-***
+
 ## Lab program-1
+
 _**LIBRARY DATABASE**_
+
 Consider the following schema for a Library Database:
 _`BOOK` (Book_id, Title, Publisher_Name, Pub_Year) 
 `BOOK_AUTHORS` (Book_id, Author_Name) 
